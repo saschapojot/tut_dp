@@ -1,5 +1,5 @@
 #include "deepmd/DeepPot.h"
-
+//inference example using c++
 int main(){
     deepmd::DeepPot model("./examples/water/se_e2_a/compressed_model_water.pth");
     std::vector<double > coord ={2.,2.,2.,2.95,2.,2.,1.6800001, 2.9,2.};
